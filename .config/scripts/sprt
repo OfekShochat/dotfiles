@@ -1,3 +1,3 @@
 #! /bin/bash
 
-cutechess-cli -engine name=patch cmd=$1 -engine name=regular cmd=$2 -games 2 -rounds 3000 -sprt elo0=0.0 elo1=3.0 alpha=0.05 beta=0.05 -each tc=0/5+0.05 -openings file=/home/ghostway/.config/scripts/book.pgn format=pgn -concurrency 12 -ratinginterval 30
+cutechess-cli -engine name=patch cmd=$1 -engine name=regular cmd=$2 -games 2 -rounds 3000 -sprt elo0=0.0 elo1=3.0 alpha=0.05 beta=0.05 -each proto=uci tc=8+0.08 -openings order=random file=/home/ghostway/.config/scripts/book.pgn format=pgn -concurrency 12 -ratinginterval 30

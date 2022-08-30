@@ -26,7 +26,7 @@ key = "Return"
 
 [[keybind]]
 command = "Execute"
-value = "xscreenlock"
+value = "XSECURELOCK_NO_COMPOSITE=1 xsecurelock"
 modifier = ["modkey", "Shift"]
 key = "l"
 

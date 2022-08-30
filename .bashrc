@@ -11,3 +11,4 @@ export PATH=~/.config/scripts:$PATH
 alias config='git --git-dir=/home/ghostway/.dotfiles --work-tree=/home/ghostway'
 export CC=clang
 export CXX=clang++
+export GPG_TTY=$(tty)
