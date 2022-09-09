@@ -12,6 +12,10 @@ disable_tile_drag = false
 focus_behaviour = "Sloppy"
 focus_new_windows = true
 
+# [[keybind]]
+# command = "Execute"
+# value = ""
+
 [[keybind]]
 command = "Execute"
 value = "dmenu_run"
